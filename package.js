@@ -53,15 +53,15 @@ Package.onUse(function (api) {
 
   // Internal dependencies.
   api.use([
-    "sylido:base-component@0.17.1"
+    "sylido:base-component@0.18.0"
   ]);
 
   // 3rd party dependencies.
   api.use([
-    "sylido:assert@0.3.0",
-    "sylido:reactive-field@0.6.0",
-    "sylido:computed-field@0.10.0",
-    "sylido:data-lookup@0.3.0"
+    "sylido:assert@0.4.0",
+    "sylido:reactive-field@0.7.0",
+    "sylido:computed-field@0.11.0",
+    "sylido:data-lookup@0.4.0"
   ]);
 
   api.export("Template");
